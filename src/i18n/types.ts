@@ -14,6 +14,13 @@ export type TranslationKeys =
   | "about.buttonText"
   | "projects.headline"
   | "projects.subheadline"
+  | "education.headline"
+  | "education.subheadline"
+  | "education.telematicsTitle"
+  | "education.technologyTitle"
+  | "education.institution"
+  | "experience.headline"
+  | "experience.subheadline"
   | "projects.buttonText"
   | "skills.headline"
   | "skills.subheadline"
@@ -35,7 +42,13 @@ export type TranslationKeys =
   | "project.washpartnerus"
   | "project.washtimeus"
   | "project.washapplavatodo"
-  | "project.sangabriel";
+  | "project.sangabriel"
+  | "experience.tradesorginc"
+  | "experience.tradesorgincDateRange"
+  | "experience.tradesorgincPosition"
+  | "experience.eurekadreams"
+  | "experience.eurekadreamsDateRange"
+  | "experience.eurekadreamsPosition";
 
 export interface SectionsKeys {
   header: {
@@ -57,6 +70,13 @@ export interface SectionsKeys {
     description: string;
     buttonText: string;
   };
+  education: {
+    headline: string;
+    subheadline: string;
+    telematicsTitle: string;
+    technologyTitle: string;
+    institution: string;
+  };
   projects: {
     headline: string;
     subheadline: string;
@@ -65,6 +85,16 @@ export interface SectionsKeys {
   skills: {
     headline: string;
     subheadline: string;
+  };
+  experience: {
+    headline: string;
+    subheadline: string;
+    tradesorginc: string;
+    tradesorgincDateRange: string;
+    tradesorgincPosition: string;
+    eurekadreams: string;
+    eurekadreamsDateRange: string;
+    eurekadreamsPosition: string;
   };
   project: {
     lulynarvaezvocalcoachDes: string;

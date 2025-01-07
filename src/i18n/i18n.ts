@@ -31,9 +31,28 @@ export const translations: Translations = {
       subheadline: "Proyectos",
       buttonText: "Ver más",
     },
+    education: {
+      headline: "Mi",
+      subheadline: "Formación",
+      telematicsTitle: "Ingeniería Telemática",
+      technologyTitle: "Tecnología en Sistematización de Datos",
+      institution: "Universidad Distrital Francisco José de Caldas",
+    },
     skills: {
       headline: "Mis",
       subheadline: "Habilidades",
+    },
+    experience: {
+      headline: "Mi",
+      subheadline: "Experiencia",
+      tradesorgincDateRange: "Junio 2023 - Diciembre 2024",
+      tradesorgincPosition: "Cargo: Desarrollador web Front-End",
+      tradesorginc:
+        "Participé en la investigación, diseño y administración de programas de software, además de probar y evaluar nuevos programas. También me involucré en la modificación del software para corregir errores y mejorar su rendimiento, así como en la implementación de herramientas, procesos y métricas de software. Colaboré en la dirección de la programación de software y el desarrollo de documentación, escribiendo e implementando código, y preparando informes sobre las especificaciones de programación, actividades y el estado de los proyectos.",
+      eurekadreamsDateRange: "Febrero 2020 - Marzo 2023",
+      eurekadreamsPosition: "Cargo: Líder de desarrollo",
+      eurekadreams:
+        "Dirección del equipo de ingenieros y desarrollador de aplicaciones móviles utilizando el framework de programación para aplicaciones nativas multiplataforma React Native, haciendo uso de la herramienta Expo; así como aplicaciones web mediante lenguaje de marcado HTML, CSS y Java Script; con énfasis en arquitectura de software.",
     },
     project: {
       lulynarvaezvocalcoachDes:
@@ -103,9 +122,28 @@ export const translations: Translations = {
       subheadline: "Projects",
       buttonText: "See more",
     },
+    education: {
+      headline: "My",
+      subheadline: "Education",
+      telematicsTitle: "Telematics Engineering",
+      technologyTitle: "Data Systematization Technology",
+      institution: "Francisco José de Caldas District University",
+    },
     skills: {
       headline: "My",
       subheadline: "Skills",
+    },
+    experience: {
+      headline: "My",
+      subheadline: "Experience",
+      tradesorgincDateRange: "June 2023 - December 2024",
+      tradesorgincPosition: "Position: Front-End Web Developer",
+      tradesorginc:
+        "I participated in the research, design, and management of software programs, as well as testing and evaluating new programs. I am also involved in modifying software to fix bugs and improve performance, as well as implementing software tools, processes, and metrics. I collaborate in the direction of software programming and the development of documentation, writing and implementing code, and preparing reports on programming specifications, activities, and project status.",
+      eurekadreamsDateRange: "February 2020 - March 2023",
+      eurekadreamsPosition: "Position: Development Leader",
+      eurekadreams:
+        "Direction of the engineering team and mobile application developer using the React Native framework for cross platform native applications, utilizing the Expo tool; as well as web applications through HTML, CSS, and JavaScript markup languages, with an emphasis on software architecture.",
     },
     project: {
       lulynarvaezvocalcoachDes: `I developed modular websites for "Luly Narváez Vocal Coach" using React JS, Storybook, Tailwind CSS, and Figma to follow the design department's guidelines. I implemented individual, reusable sections that were efficiently styled with Tailwind, which were integrated to create fully customized pages based on the needs. This approach enabled agile and consistent development, providing scalable, high-quality solutions for the client.`,

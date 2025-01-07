@@ -7,6 +7,8 @@ import aboutImage from "./assets/about.jpg";
 import About from "./sections/about/about";
 import Header from "./sections/header/header";
 import Projects from "./sections/projects/projects";
+import Experience from "./sections/experience/experience";
+import Education from "./sections/education/education";
 import Skills from "./sections/skills/skills";
 import Footer from "./sections/footer/footer";
 
@@ -42,6 +44,14 @@ function App() {
         headline={t("skills.headline")}
         subheadline={t("skills.subheadline")}
         skills={skills}
+      />
+      <Experience
+        headline={t("experience.headline")}
+        subheadline={t("experience.subheadline")}
+      />
+      <Education
+        headline={t("education.headline")}
+        subheadline={t("education.subheadline")}
       />
       <Footer
         name="Ruben Dario Parra Camargo"
