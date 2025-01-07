@@ -11,8 +11,11 @@ import { Navigation, Pagination } from "swiper/modules";
 import { FaChevronCircleLeft, FaChevronCircleRight } from "react-icons/fa";
 
 // Import Swiper styles
+// @ts-ignore
 import "swiper/css";
+// @ts-ignore
 import "swiper/css/navigation";
+// @ts-ignore
 import "swiper/css/pagination";
 
 function SwiperComponent({ images, classNameItem }: SwiperComponentProps) {
