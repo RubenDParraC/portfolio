@@ -40,8 +40,8 @@ function About({
           className="w-auto bg-cyan-500 py-2 px-5 rounded-lg text-slate-200 font-bold uppercase hover:shadow-md hover:shadow-cyan-200"
           onClick={() => {
             const link = document.createElement("a");
-            link.href = "./";
-            link.download = "../../files/SPANISH.pdf";
+            link.href = "/files/SPANISH.pdf";
+            link.download = "SPANISH.pdf";
             link.click();
           }}
         >
