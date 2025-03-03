@@ -53,6 +53,7 @@ function SwiperComponent({ images, classNameItem }: SwiperComponentProps) {
             navigation.nextEl = nextRef.current;
           }
         }}
+        className="cursor-grab"
       >
         {images.map((image, index) => (
           <SwiperSlide key={`${image}${+index}`}>

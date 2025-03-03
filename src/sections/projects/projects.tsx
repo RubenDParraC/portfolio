@@ -21,7 +21,7 @@ function Projects({ headline, subheadline, buttonText }: ProyectsProps) {
           {subheadline}
         </span>
       </p>
-      <div className="w-full overflow-x-auto scroll-smooth custom-scrollbar">
+      <div className="w-full overflow-x-auto scroll-smooth custom-scrollbar pb-5">
         <div className="flex gap-8">
           {ProjectsList.map((project, index) => (
             <div
