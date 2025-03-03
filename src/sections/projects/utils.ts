@@ -404,10 +404,11 @@ export const ProjectsList: Project[] = [
     title: "DermaClub",
     description: "project.dermaclub",
     images: [
-      "https://play-lh.googleusercontent.com/QGDqXJwKcT14LvSLc_C6xJPG-zMqYS0oV5PD5X944XJZoHCUHKKu--i9cvg4-V6HYZhu=w2560-h1440-rw",
-      "https://play-lh.googleusercontent.com/Uj5-0vZecfY450aKaWy96S9iiSA2FDjThnHjUypECiBB7gV81xwmTej8PCLNAUL7Ujc=w2560-h1440-rw",
-      "https://play-lh.googleusercontent.com/9epW3z2Qgfs2buNkWbEtLpicDkzyegh0uP5SMF16KsNypNN8kdtLHC8T28F2_UD9fw=w2560-h1440-rw",
-      "https://play-lh.googleusercontent.com/VCh-aB1mTj_Mj4trAHxCN5jcEwRtD8-28o8sz6z6yqbWQTAczd9SEi9aHlc2xnH3eQ=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/9TyG_MrBXPchUXdg79FsVT3xhAl7KjvHdb8nrAXaX38KTJAzOo9ENPOomOl5-seBK5w=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/C9FZnDWClsS1uNE8f4AqbZgJCC20El2q6aafYVbc9PYT790izRQ4RsvPHixYiA3p7g=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/GEGPRNTN_ZwXCHzgnQREHuenFFjsjSqMygaKC5Ww2C_048nAAr9CP1CuSlGVD39lrg=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/YS-gC_4LHPmdGvS_vLFQTygZ5y3jScwarqMcNp5kn2iLEpjzp9La1-5M6uDb1Evs5Lc=w2560-h1440-rw",
+      "https://play-lh.googleusercontent.com/0ZNQfmCnq_7tH-zGYIUBrlogxEnk1FuHuU3mPftAYY1Oc9SbZns9_oZ_YQ4bRi_XlrI=w2560-h1440-rw",
     ],
     technologies: [
       "https://miro.medium.com/v2/resize:fit:512/1*em2XHNcs3cB1fBkd1TF1bQ.png",

@@ -43,6 +43,9 @@ export type TranslationKeys =
   | "project.washtimeus"
   | "project.washapplavatodo"
   | "project.sangabriel"
+  | "experience.cobistopaz"
+  | "experience.cobistopazDateRange"
+  | "experience.cobistopazPosition"
   | "experience.tradesorginc"
   | "experience.tradesorgincDateRange"
   | "experience.tradesorgincPosition"
@@ -89,6 +92,9 @@ export interface SectionsKeys {
   experience: {
     headline: string;
     subheadline: string;
+    cobistopaz: string;
+    cobistopazDateRange: string;
+    cobistopazPosition: string;
     tradesorginc: string;
     tradesorgincDateRange: string;
     tradesorgincPosition: string;

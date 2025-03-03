@@ -18,8 +18,7 @@ export const skills: skill[] = [
   },
   {
     name: "CSS",
-    image:
-      "https://cdn.icon-icons.com/icons2/2415/PNG/512/css_plain_logo_icon_146573.png",
+    image: "https://cdn.worldvectorlogo.com/logos/css-3.svg",
   },
   {
     name: "JavaScript",

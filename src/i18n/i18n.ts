@@ -45,10 +45,14 @@ export const translations: Translations = {
     experience: {
       headline: "Mi",
       subheadline: "Experiencia",
+      cobistopazDateRange: "Febrero 2025 - Actualmente",
+      cobistopazPosition: "Cargo: Analista Desarrollador",
+      cobistopaz:
+        "Como Developer Analyst en mi empleo actual, me encargo de realizar actividades de desarrollo, diseño, investigación, soporte, programación, mantenimiento, pruebas técnicas y documentación de sistemas COBIS de complejidad media. Colaboro en la construcción de diversos softwares de la organización, atendiendo a los usuarios con problemas relacionados con los productos. Además, verifico desarrollos heredados, identifico posibles problemas y sugiero mejoras a los productos, mientras planifico y estimo los tiempos de desarrollo.",
       tradesorgincDateRange: "Junio 2023 - Diciembre 2024",
       tradesorgincPosition: "Cargo: Desarrollador web Front-End",
       tradesorginc:
-        "Participé en la investigación, diseño y administración de programas de software, además de probar y evaluar nuevos programas. También me involucré en la modificación del software para corregir errores y mejorar su rendimiento, así como en la implementación de herramientas, procesos y métricas de software. Colaboré en la dirección de la programación de software y el desarrollo de documentación, escribiendo e implementando código, y preparando informes sobre las especificaciones de programación, actividades y el estado de los proyectos.",
+        "Participé en la investigación, diseño y administración de programas de software, además de probar y evaluar nuevos programas. También me involucré en la modificación del software para corregir errores y mejorar su rendimiento, así como en la implementación de herramientas, procesos y métricas de software. Colaboré en la dirección de la programación de software y el desarrollo de documentación, escribiendo e implementando código, y preparando informes sobre las especificaciones de programación, actividades y el estado de los proyectos. Además, participé activamente en la creación de sistemas de diseño, contribuyendo al desarrollo de una estética coherente y funcional en las interfaces de usuario, lo que optimizó la experiencia y usabilidad del software.",
       eurekadreamsDateRange: "Febrero 2020 - Marzo 2023",
       eurekadreamsPosition: "Cargo: Líder de desarrollo",
       eurekadreams:
@@ -136,10 +140,14 @@ export const translations: Translations = {
     experience: {
       headline: "My",
       subheadline: "Experience",
+      cobistopazDateRange: "February 2025 - Currently",
+      cobistopazPosition: "Position: Developer Analyst",
+      cobistopaz:
+        "As a Developer Analyst in my current role, I am responsible for development, design, research, support, programming, maintenance, technical testing, and documentation of medium-complexity COBIS systems. I collaborate in the construction of various software products for the organization, assisting users with issues related to the products. Additionally, I verify inherited developments, identify potential issues, suggest product improvements, and plan and estimate development timelines.",
       tradesorgincDateRange: "June 2023 - December 2024",
       tradesorgincPosition: "Position: Front-End Web Developer",
       tradesorginc:
-        "I participated in the research, design, and management of software programs, as well as testing and evaluating new programs. I am also involved in modifying software to fix bugs and improve performance, as well as implementing software tools, processes, and metrics. I collaborate in the direction of software programming and the development of documentation, writing and implementing code, and preparing reports on programming specifications, activities, and project status.",
+        "I participated in the research, design, and management of software programs, as well as testing and evaluating new programs. I was also involved in modifying software to fix bugs and improve performance, as well as implementing software tools, processes, and metrics. I collaborated in the direction of software programming and the development of documentation, writing and implementing code, and preparing reports on programming specifications, activities, and project status. Additionally, I actively participated in the creation of design systems, contributing to the development of a coherent and functional aesthetic in user interfaces, which optimized the software's experience and usability.",
       eurekadreamsDateRange: "February 2020 - March 2023",
       eurekadreamsPosition: "Position: Development Leader",
       eurekadreams:

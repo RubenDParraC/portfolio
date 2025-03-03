@@ -3,6 +3,16 @@ import type { ExperienceItem } from "./types";
 
 export const ExperienceList: ExperienceItem[] = [
   {
+    company: "Cobis Topaz",
+    boss: "Angie Vanesa Herrera Velasquez",
+    location: "1703 Deerfield Dr, Austin, Texas, 78741, US",
+    dateRange: "experience.cobistopazDateRange",
+    position: "experience.cobistopazPosition",
+    description: "experience.cobistopaz",
+    image:
+      "https://yt3.googleusercontent.com/k3GYR9RpCIGP1bekKs4IGkv-GPYBG9WL0RP_s0fTd2UzYAa5oluYb7ahKk-KPl6lpoURisll-w=s900-c-k-c0x00ffffff-no-rj",
+  },
+  {
     company: "Trades Org Inc",
     boss: "Christian Rodriguez",
     location: "1703 Deerfield Dr, Austin, Texas, 78741, US",
