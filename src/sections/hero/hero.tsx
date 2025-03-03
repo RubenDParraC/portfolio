@@ -38,7 +38,7 @@ function Hero({
               className="w-6 h-6 text-cyan-500 hover:shadow-lg cursor-pointer hover:shadow-cyan-200"
               onClick={() =>
                 window.open(
-                  "https://www.linkedin.com/in/ruben-parra-0b0692279",
+                  "https://www.linkedin.com/in/ruben-dario-parra-0b0692279/",
                   "_blank"
                 )
               }
