@@ -4,8 +4,8 @@ import type { ExperienceItem } from "./types";
 export const ExperienceList: ExperienceItem[] = [
   {
     company: "Cobis Topaz",
-    boss: "Angie Vanesa Herrera Velasquez",
-    location: "1703 Deerfield Dr, Austin, Texas, 78741, US",
+    boss: "Yeny Angelica Pérez Álzate",
+    location: "Bogotá, Colombia",
     dateRange: "experience.cobistopazDateRange",
     position: "experience.cobistopazPosition",
     description: "experience.cobistopaz",
