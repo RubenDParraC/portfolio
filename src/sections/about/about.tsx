@@ -14,6 +14,7 @@ function About({
 }: AboutProps) {
   const { language } = useLanguage();
   return (
+    // biome-ignore lint/correctness/useUniqueElementIds: <>
     <div
       id="#about"
       className="w-full bg-zinc-600 flex flex-col-reverse lg:flex-row items-stretch"
@@ -26,7 +27,7 @@ function About({
       <div
         className={twMerge(
           "w-full flex flex-col gap-2 p-10 lg:pr-32 lg:py-12",
-          image ? "lg:w-2/3" : "lg:pl-32"
+          image ? "lg:w-2/3" : "lg:pl-32",
         )}
       >
         <p className="text-slate-200 font-medium text-3xl">

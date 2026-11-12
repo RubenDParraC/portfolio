@@ -1,4 +1,9 @@
 export type TranslationKeys =
+  | "general.record"
+  | "general.showing"
+  | "general.of"
+  | "general.search"
+  | "general.actions"
   | "header.home"
   | "header.about"
   | "header.projects"
@@ -14,6 +19,10 @@ export type TranslationKeys =
   | "about.buttonText"
   | "projects.headline"
   | "projects.subheadline"
+  | "projects.row.technologies"
+  | "projects.row.logo"
+  | "projects.row.title"
+  | "projects.row.description"
   | "education.headline"
   | "education.subheadline"
   | "education.telematicsTitle"
@@ -24,18 +33,6 @@ export type TranslationKeys =
   | "projects.buttonText"
   | "skills.headline"
   | "skills.subheadline"
-  | "project.lulynarvaezvocalcoachDes"
-  | "project.ajudadaurologia"
-  | "project.boldrinrivers"
-  | "project.scconstrucciones"
-  | "project.eddiepinturas"
-  | "project.empleadasunidas"
-  | "project.tumascotasegura"
-  | "project.Des991"
-  | "project.sgstrategies"
-  | "project.danzayeniruiz"
-  | "project.amobility"
-  | "project.glamper"
   | "project.kampo"
   | "project.healthclubespecialista"
   | "project.dermaclub"
@@ -54,6 +51,13 @@ export type TranslationKeys =
   | "experience.eurekadreamsPosition";
 
 export interface SectionsKeys {
+  general: {
+    record: string;
+    showing: string;
+    of: string;
+    search: string;
+    actions: string;
+  };
   header: {
     home: string;
     about: string;
@@ -84,6 +88,12 @@ export interface SectionsKeys {
     headline: string;
     subheadline: string;
     buttonText: string;
+    row: {
+      technologies: string;
+      logo: string;
+      title: string;
+      description: string;
+    };
   };
   skills: {
     headline: string;
@@ -103,18 +113,6 @@ export interface SectionsKeys {
     eurekadreamsPosition: string;
   };
   project: {
-    lulynarvaezvocalcoachDes: string;
-    ajudadaurologia: string;
-    boldrinrivers: string;
-    scconstrucciones: string;
-    eddiepinturas: string;
-    empleadasunidas: string;
-    tumascotasegura: string;
-    Des991: string;
-    sgstrategies: string;
-    danzayeniruiz: string;
-    amobility: string;
-    glamper: string;
     kampo: string;
     healthclubespecialista: string;
     dermaclub: string;

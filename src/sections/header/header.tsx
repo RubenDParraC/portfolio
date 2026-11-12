@@ -49,13 +49,14 @@ function Header() {
   }, [lastScrollY]);
 
   return (
+    // biome-ignore lint/correctness/useUniqueElementIds: <>
     <div
       id="#header"
       className={twMerge(
         "w-full h-20 px-10 lg:px-32 py-6 bg-zinc-600 transition-transform duration-300 rounded-b-xl top-0 left-0 z-50 fixed",
         isVisible
           ? "transform translate-y-0 shadow-sm shadow-cyan-500"
-          : "transform -translate-y-full"
+          : "transform -translate-y-full",
       )}
     >
       <div className="w-full flex flex-row justify-between items-center">
@@ -120,7 +121,7 @@ function Header() {
       <div
         className={twMerge(
           open ? "block" : "hidden",
-          "lg:hidden w-screen h-screen bg-zinc-600 absolute top-0 left-0 bottom-0 right-0 p-10"
+          "lg:hidden w-screen h-screen bg-zinc-600 absolute top-0 left-0 bottom-0 right-0 p-10",
         )}
       >
         <div className="w-full flex flex-row justify-between items-center mb-10">

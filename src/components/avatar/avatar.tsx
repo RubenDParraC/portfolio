@@ -12,11 +12,7 @@ function Avatar({ src, size, className }: AvatarProps) {
     <img
       src={src}
       alt="Avatar"
-      className={twMerge(
-        Sizes[size ?? "md"],
-        "rounded-[60%_40%_60%_40%] overflow-hidden shadow-lg shadow-cyan-400",
-        className
-      )}
+      className={twMerge(Sizes[size ?? "md"], "overflow-hidden", className)}
     />
   );
 }

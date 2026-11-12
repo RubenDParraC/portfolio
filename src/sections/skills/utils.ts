@@ -5,7 +5,7 @@ export const skills: skill[] = [
   {
     name: "React JS",
     image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgH0PJEcmWEu5uhR2K18GosGYr2TzNYFD_81XAPHlfr8iGmoFAmLwr1xA&s=10",
   },
   {
     name: "Expo CLI",
@@ -31,12 +31,12 @@ export const skills: skill[] = [
   {
     name: "React Native",
     image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgH0PJEcmWEu5uhR2K18GosGYr2TzNYFD_81XAPHlfr8iGmoFAmLwr1xA&s=10",
   },
   {
     name: "Tailwind CSS",
     image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2560px-Tailwind_CSS_Logo.svg.png",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/3840px-Tailwind_CSS_Logo.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
   },
   {
     name: "Bootstrap",
@@ -45,13 +45,12 @@ export const skills: skill[] = [
   },
   {
     name: "TypeScript",
-    image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1024px-Typescript_logo_2020.svg.png",
+    image: "https://cdn-icons-png.flaticon.com/512/5968/5968381.png",
   },
   {
     name: "Vite JS",
     image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Vitejs-logo.svg/2078px-Vitejs-logo.svg.png",
+      "https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/webp/vite.webp",
   },
   {
     name: "Next JS",
@@ -60,8 +59,7 @@ export const skills: skill[] = [
   },
   {
     name: "Storybook",
-    image:
-      "https://static-00.iconduck.com/assets.00/storybook-icon-icon-1645x2048-ir1mrc43.png",
+    image: "https://www.svgrepo.com/show/354397/storybook-icon.svg",
   },
   {
     name: "Figma",
@@ -73,8 +71,7 @@ export const skills: skill[] = [
   },
   {
     name: "Django",
-    image:
-      "https://static-00.iconduck.com/assets.00/django-icon-1606x2048-lwmw1z73.png",
+    image: "https://www.svgrepo.com/show/353657/django-icon.svg",
   },
   {
     name: "Github",
@@ -104,7 +101,7 @@ export const skills: skill[] = [
   {
     name: "GraphQL",
     image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/GraphQL_Logo.svg/2048px-GraphQL_Logo.svg.png",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/17/GraphQL_Logo.svg/3840px-GraphQL_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
   },
   {
     name: "Apollo Server",

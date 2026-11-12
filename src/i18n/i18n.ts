@@ -5,6 +5,13 @@ import type { TranslationKeys, Translations } from "./types";
 
 export const translations: Translations = {
   ES: {
+    general: {
+      record: "Registro",
+      showing: "Mostrando",
+      of: "de",
+      search: "Búsqueda",
+      actions: "Acciones",
+    },
     header: {
       home: "Inicio",
       about: "Acerca de",
@@ -30,6 +37,12 @@ export const translations: Translations = {
       headline: "Mis",
       subheadline: "Proyectos",
       buttonText: "Ver más",
+      row: {
+        technologies: "Tecnologías",
+        logo: "Logo",
+        title: "Título",
+        description: "Descripción",
+      },
     },
     education: {
       headline: "Mi",
@@ -50,39 +63,15 @@ export const translations: Translations = {
       cobistopaz:
         "Como Developer Analyst en mi empleo actual, me encargo de realizar actividades de desarrollo, diseño, investigación, soporte, programación, mantenimiento, pruebas técnicas y documentación de sistemas COBIS de complejidad media. Colaboro en la construcción de diversos softwares de la organización, atendiendo a los usuarios con problemas relacionados con los productos. Además, verifico desarrollos heredados, identifico posibles problemas y sugiero mejoras a los productos, mientras planifico y estimo los tiempos de desarrollo.",
       tradesorgincDateRange: "Junio 2023 - Diciembre 2024",
-      tradesorgincPosition: "Cargo: Desarrollador web Front-End",
+      tradesorgincPosition: "Cargo: Desarrollador web Front-End Senior",
       tradesorginc:
         "Participé en la investigación, diseño y administración de programas de software, además de probar y evaluar nuevos programas. También me involucré en la modificación del software para corregir errores y mejorar su rendimiento, así como en la implementación de herramientas, procesos y métricas de software. Colaboré en la dirección de la programación de software y el desarrollo de documentación, escribiendo e implementando código, y preparando informes sobre las especificaciones de programación, actividades y el estado de los proyectos. Además, participé activamente en la creación de sistemas de diseño, contribuyendo al desarrollo de una estética coherente y funcional en las interfaces de usuario, lo que optimizó la experiencia y usabilidad del software.",
       eurekadreamsDateRange: "Febrero 2020 - Marzo 2023",
-      eurekadreamsPosition: "Cargo: Líder de desarrollo",
+      eurekadreamsPosition: "Cargo: Líder Técnico Senior",
       eurekadreams:
-        "Dirección del equipo de ingenieros y desarrollador de aplicaciones móviles utilizando el framework de programación para aplicaciones nativas multiplataforma React Native, haciendo uso de la herramienta Expo; así como aplicaciones web mediante lenguaje de marcado HTML, CSS y Java Script; con énfasis en arquitectura de software.",
+        "Dirección del equipo de ingenieros y desarrollador de aplicaciones móviles utilizando el framework de programación para aplicaciones nativas multiplataforma React Native, haciendo uso de la herramienta Expo; así como aplicaciones web mediante lenguaje de marcado HTML, CSS y Java Script; con énfasis en arquitectura de software, así como uso de herramientas y tecnologías que se encuentran en el listado de habilidades.",
     },
     project: {
-      lulynarvaezvocalcoachDes:
-        'Realice el desarrollo de websites modulares para "Luly Narváez Vocal Coach" utilizando React JS, Storybook, Tailwind CSS y Figma para seguir los lineamientos del área de diseño. Implementé secciones individuales reutilizables y estilizadas eficientemente con Tailwind, las cuales se integraron para crear páginas completas personalizadas según las necesidades. Este enfoque permitió un desarrollo ágil y consistente, proporcionando soluciones escalables y de alta calidad para el cliente.',
-      ajudadaurologia:
-        'Realice el desarrollo de websites modulares para "Ajuda Da Urología" utilizando React JS, Storybook, Tailwind CSS y Figma para seguir los lineamientos del área de diseño. Implementé secciones individuales reutilizables y estilizadas eficientemente con Tailwind, las cuales se integraron para crear páginas completas personalizadas según las necesidades. Este enfoque permitió un desarrollo ágil y consistente, proporcionando soluciones escalables y de alta calidad para el cliente.',
-      boldrinrivers:
-        'Realice el desarrollo de websites modulares para "Boldrin & Rivers" utilizando React JS, Storybook, Tailwind CSS y Figma para seguir los lineamientos del área de diseño. Implementé secciones individuales reutilizables y estilizadas eficientemente con Tailwind, las cuales se integraron para crear páginas completas personalizadas según las necesidades. Este enfoque permitió un desarrollo ágil y consistente, proporcionando soluciones escalables y de alta calidad para el cliente.',
-      scconstrucciones:
-        'Realice el desarrollo de websites modulares para "SC Construcciones" utilizando React JS, Storybook, Tailwind CSS y Figma para seguir los lineamientos del área de diseño. Implementé secciones individuales reutilizables y estilizadas eficientemente con Tailwind, las cuales se integraron para crear páginas completas personalizadas según las necesidades. Este enfoque permitió un desarrollo ágil y consistente, proporcionando soluciones escalables y de alta calidad para el cliente.',
-      eddiepinturas:
-        'Realice el desarrollo de websites modulares para "Eddie Pinturas" utilizando React JS, Storybook, Tailwind CSS y Figma para seguir los lineamientos del área de diseño. Implementé secciones individuales reutilizables y estilizadas eficientemente con Tailwind, las cuales se integraron para crear páginas completas personalizadas según las necesidades. Este enfoque permitió un desarrollo ágil y consistente, proporcionando soluciones escalables y de alta calidad para el cliente.',
-      empleadasunidas:
-        'Realice el desarrollo de websites modulares para "Empleadas Unidas" utilizando React JS, Storybook, Tailwind CSS y Figma para seguir los lineamientos del área de diseño. Implementé secciones individuales reutilizables y estilizadas eficientemente con Tailwind, las cuales se integraron para crear páginas completas personalizadas según las necesidades. Este enfoque permitió un desarrollo ágil y consistente, proporcionando soluciones escalables y de alta calidad para el cliente.',
-      tumascotasegura:
-        'Realice el desarrollo de websites modulares para "Tu Mascota Segura" utilizando React JS, Storybook, Tailwind CSS y Figma para seguir los lineamientos del área de diseño. Implementé secciones individuales reutilizables y estilizadas eficientemente con Tailwind, las cuales se integraron para crear páginas completas personalizadas según las necesidades. Este enfoque permitió un desarrollo ágil y consistente, proporcionando soluciones escalables y de alta calidad para el cliente.',
-      Des991:
-        'Realice el desarrollo de websites modulares para "99 + 1" utilizando React JS, Storybook, Tailwind CSS y Figma para seguir los lineamientos del área de diseño. Implementé secciones individuales reutilizables y estilizadas eficientemente con Tailwind, las cuales se integraron para crear páginas completas personalizadas según las necesidades. Este enfoque permitió un desarrollo ágil y consistente, proporcionando soluciones escalables y de alta calidad para el cliente.',
-      sgstrategies:
-        'Realice el desarrollo de websites modulares para "S. G. Strategies" utilizando React JS, Storybook, Tailwind CSS y Figma para seguir los lineamientos del área de diseño. Implementé secciones individuales reutilizables y estilizadas eficientemente con Tailwind, las cuales se integraron para crear páginas completas personalizadas según las necesidades. Este enfoque permitió un desarrollo ágil y consistente, proporcionando soluciones escalables y de alta calidad para el cliente.',
-      danzayeniruiz:
-        'Realice el desarrollo de websites modulares para "Danza Yeni Ruiz" utilizando React JS, Storybook, Tailwind CSS y Figma para seguir los lineamientos del área de diseño. Implementé secciones individuales reutilizables y estilizadas eficientemente con Tailwind, las cuales se integraron para crear páginas completas personalizadas según las necesidades. Este enfoque permitió un desarrollo ágil y consistente, proporcionando soluciones escalables y de alta calidad para el cliente.',
-      amobility:
-        'Realice el desarrollo de websites modulares para "AMobility" utilizando React JS, Storybook, Tailwind CSS y Figma para seguir los lineamientos del área de diseño. Implementé secciones individuales reutilizables y estilizadas eficientemente con Tailwind, las cuales se integraron para crear páginas completas personalizadas según las necesidades. Este enfoque permitió un desarrollo ágil y consistente, proporcionando soluciones escalables y de alta calidad para el cliente.',
-      glamper:
-        "Participé en el desarrollo de una aplicación web utilizando HTML con Bootstrap para el Front-End, complementada con un backend robusto desarrollado en Django. Este aplicativo web permite publicar alojamientos tipo Glamping. Mi contribución se centró en el diseño de interfaces de usuario intuitivas, integración de API RESTfull y implementación de autenticación de usuarios.",
       kampo:
         "Participé en el desarrollo de una aplicación móvil utilizando Expo CLI y React para el Front-End estilizando sus componentes con NativeWind y Firebase para utilizar Notifications Push, complementada con un backend robusto desarrollado en Django. Esta aplicación es una red social deportiva para conectar reclutadores con jugadores mediante la visualizacion de videos cortos, mensajeria, enlace directo con reclutadores y busqueda de jugadores con ciertas caracteristicas. Mi contribución se centró en la dirección del equipo de desarrollo, el diseño de interfaces de usuario intuitivas, integración de API RESTfull, implementación de autenticación de usuarios y despliegue en Google Play y App Store.",
       healthclubespecialista:
@@ -100,6 +89,13 @@ export const translations: Translations = {
     },
   },
   EN: {
+    general: {
+      record: "Record",
+      showing: "Showing",
+      of: "of",
+      search: "Search",
+      actions: "Actions",
+    },
     header: {
       home: "Home",
       about: "About",
@@ -125,6 +121,12 @@ export const translations: Translations = {
       headline: "My",
       subheadline: "Projects",
       buttonText: "See more",
+      row: {
+        technologies: "Technologies",
+        logo: "Logo",
+        title: "Title",
+        description: "Description",
+      },
     },
     education: {
       headline: "My",
@@ -145,28 +147,15 @@ export const translations: Translations = {
       cobistopaz:
         "As a Developer Analyst in my current role, I am responsible for development, design, research, support, programming, maintenance, technical testing, and documentation of medium-complexity COBIS systems. I collaborate in the construction of various software products for the organization, assisting users with issues related to the products. Additionally, I verify inherited developments, identify potential issues, suggest product improvements, and plan and estimate development timelines.",
       tradesorgincDateRange: "June 2023 - December 2024",
-      tradesorgincPosition: "Position: Front-End Web Developer",
+      tradesorgincPosition: "Position: Front-End Web Developer Senior",
       tradesorginc:
         "I participated in the research, design, and management of software programs, as well as testing and evaluating new programs. I was also involved in modifying software to fix bugs and improve performance, as well as implementing software tools, processes, and metrics. I collaborated in the direction of software programming and the development of documentation, writing and implementing code, and preparing reports on programming specifications, activities, and project status. Additionally, I actively participated in the creation of design systems, contributing to the development of a coherent and functional aesthetic in user interfaces, which optimized the software's experience and usability.",
       eurekadreamsDateRange: "February 2020 - March 2023",
-      eurekadreamsPosition: "Position: Development Leader",
+      eurekadreamsPosition: "Position: Tech Leader Senior",
       eurekadreams:
-        "Direction of the engineering team and mobile application developer using the React Native framework for cross platform native applications, utilizing the Expo tool; as well as web applications through HTML, CSS, and JavaScript markup languages, with an emphasis on software architecture.",
+        "Leading a team of engineers and developing mobile applications using the React Native cross-platform native app framework (with the Expo tool), as well as web applications using HTML, CSS, and JavaScript. The role focuses on software architecture and the application of tools and technologies listed in the skills section.",
     },
     project: {
-      lulynarvaezvocalcoachDes: `I developed modular websites for "Luly Narváez Vocal Coach" using React JS, Storybook, Tailwind CSS, and Figma to follow the design department's guidelines. I implemented individual, reusable sections that were efficiently styled with Tailwind, which were integrated to create fully customized pages based on the needs. This approach enabled agile and consistent development, providing scalable, high-quality solutions for the client.`,
-      ajudadaurologia: `I developed modular websites for "Ajuda Da Urología" using React JS, Storybook, Tailwind CSS, and Figma to follow the design department's guidelines. I implemented individual, reusable sections that were efficiently styled with Tailwind, which were integrated to create fully customized pages based on the needs. This approach enabled agile and consistent development, providing scalable, high-quality solutions for the client.`,
-      boldrinrivers: `I developed modular websites for "Boldrin & Rivers" using React JS, Storybook, Tailwind CSS, and Figma to follow the design department's guidelines. I implemented individual, reusable sections that were efficiently styled with Tailwind, which were integrated to create fully customized pages based on the needs. This approach enabled agile and consistent development, providing scalable, high-quality solutions for the client.`,
-      scconstrucciones: `I developed modular websites for "SC Construcciones" using React JS, Storybook, Tailwind CSS, and Figma to follow the design department's guidelines. I implemented individual, reusable sections that were efficiently styled with Tailwind, which were integrated to create fully customized pages based on the needs. This approach enabled agile and consistent development, providing scalable, high-quality solutions for the client.`,
-      eddiepinturas: `I developed modular websites for "Eddie Pinturas" using React JS, Storybook, Tailwind CSS, and Figma to follow the design department's guidelines. I implemented individual, reusable sections that were efficiently styled with Tailwind, which were integrated to create fully customized pages based on the needs. This approach enabled agile and consistent development, providing scalable, high-quality solutions for the client.`,
-      empleadasunidas: `I developed modular websites for "Empleadas Unidas" using React JS, Storybook, Tailwind CSS, and Figma to follow the design department's guidelines. I implemented individual, reusable sections that were efficiently styled with Tailwind, which were integrated to create fully customized pages based on the needs. This approach enabled agile and consistent development, providing scalable, high-quality solutions for the client.`,
-      tumascotasegura: `I developed modular websites for "Tu Mascota Segura" using React JS, Storybook, Tailwind CSS, and Figma to follow the design department's guidelines. I implemented individual, reusable sections that were efficiently styled with Tailwind, which were integrated to create fully customized pages based on the needs. This approach enabled agile and consistent development, providing scalable, high-quality solutions for the client.`,
-      Des991: `I developed modular websites for "99 + 1" using React JS, Storybook, Tailwind CSS, and Figma to follow the design department's guidelines. I implemented individual, reusable sections that were efficiently styled with Tailwind, which were integrated to create fully customized pages based on the needs. This approach enabled agile and consistent development, providing scalable, high-quality solutions for the client.`,
-      sgstrategies: `I developed modular websites for "S. G. Strategies" using React JS, Storybook, Tailwind CSS, and Figma to follow the design department's guidelines. I implemented individual, reusable sections that were efficiently styled with Tailwind, which were integrated to create fully customized pages based on the needs. This approach enabled agile and consistent development, providing scalable, high-quality solutions for the client.`,
-      danzayeniruiz: `I developed modular websites for "Danza Yeni Ruiz" using React JS, Storybook, Tailwind CSS, and Figma to follow the design department's guidelines. I implemented individual, reusable sections that were efficiently styled with Tailwind, which were integrated to create fully customized pages based on the needs. This approach enabled agile and consistent development, providing scalable, high-quality solutions for the client.`,
-      amobility: `I developed modular websites for "AMobility" using React JS, Storybook, Tailwind CSS, and Figma to follow the design department's guidelines. I implemented individual, reusable sections that were efficiently styled with Tailwind, which were integrated to create fully customized pages based on the needs. This approach enabled agile and consistent development, providing scalable, high-quality solutions for the client.`,
-      glamper:
-        "I participated in the development of a web application using HTML with Bootstrap for the Front-End, complemented with a robust backend developed in Django. This web application allows the publication of Glamping-style accommodations. My contribution focused on designing intuitive user interfaces, integrating RESTful APIs, and implementing user authentication.",
       kampo:
         "I participated in the development of a mobile application using Expo CLI and React for the Front-End, styling its components with NativeWind and Firebase for Push Notifications, complemented with a robust backend developed in Django. This application is a sports social network designed to connect recruiters with players through short video viewing, messaging, direct links with recruiters, and player searches with specific characteristics. My contribution focused on leading the development team, designing intuitive user interfaces, integrating RESTful APIs, implementing user authentication, and deploying the app on Google Play and the App Store.",
       healthclubespecialista:
@@ -188,7 +177,7 @@ export const translations: Translations = {
 export const t = (key: TranslationKeys) => {
   const { language } = useLanguage();
   const keys = key.split(".");
-  // biome-ignore lint/suspicious/noExplicitAny: <explanation>
+  // biome-ignore lint/suspicious/noExplicitAny: <>
   let result: any = translations[language];
 
   for (let i = 0; i < keys.length; i++) {

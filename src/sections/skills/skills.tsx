@@ -3,6 +3,7 @@ import type { SkillsProps } from "./types";
 
 function Skills({ headline, subheadline, skills }: SkillsProps) {
   return (
+    // biome-ignore lint/correctness/useUniqueElementIds: <>
     <div id="#skills" className="w-full p-10 lg:px-32 lg:py-12 bg-zinc-600">
       <p className="text-slate-200 font-medium text-3xl mb-5">
         {headline}

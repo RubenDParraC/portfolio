@@ -8,6 +8,7 @@ import { EducationList } from "./utils";
 
 function Education({ headline, subheadline }: EducationProps) {
   return (
+    // biome-ignore lint/correctness/useUniqueElementIds: <>
     <div id="#education" className="w-full p-10 lg:px-32 lg:py-12 bg-zinc-600">
       <div className="w-full flex flex-col gap-5">
         <p className="text-slate-200 font-medium text-3xl">

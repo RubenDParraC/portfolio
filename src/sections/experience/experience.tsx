@@ -8,6 +8,7 @@ import { ExperienceList } from "./utils";
 
 function Experience({ headline, subheadline }: ExperienceProps) {
   return (
+    // biome-ignore lint/correctness/useUniqueElementIds: <>
     <div id="#experience" className="w-full p-10 lg:px-32 lg:py-12">
       <div className="w-full flex flex-col gap-5">
         <p className="text-slate-200 font-medium text-3xl">

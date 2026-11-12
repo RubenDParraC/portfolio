@@ -2,7 +2,7 @@ import { t } from "./i18n/i18n";
 
 // sections
 import Hero from "./sections/hero/hero";
-import profileImage from "./assets/profile.jpg";
+import profileImage from "./assets/profile.png";
 import aboutImage from "./assets/about.jpg";
 import About from "./sections/about/about";
 import Header from "./sections/header/header";

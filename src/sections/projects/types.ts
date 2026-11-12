@@ -8,9 +8,9 @@ export type ProyectsProps = {
 };
 
 export interface Project {
+  logo: string;
   title: string;
   description: TranslationKeys;
-  images: string[];
   technologies: string[];
   url: string;
 }

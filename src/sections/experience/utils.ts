@@ -4,17 +4,17 @@ import type { ExperienceItem } from "./types";
 export const ExperienceList: ExperienceItem[] = [
   {
     company: "Cobis Topaz",
-    boss: "Yeny Angelica Pérez Álzate",
+    boss: "Hanna Raquel Pereira Rodríguez (+507 6248 6244)",
     location: "Bogotá, Colombia",
     dateRange: "experience.cobistopazDateRange",
     position: "experience.cobistopazPosition",
     description: "experience.cobistopaz",
     image:
-      "https://yt3.googleusercontent.com/k3GYR9RpCIGP1bekKs4IGkv-GPYBG9WL0RP_s0fTd2UzYAa5oluYb7ahKk-KPl6lpoURisll-w=s900-c-k-c0x00ffffff-no-rj",
+      "https://media.licdn.com/dms/image/v2/D560BAQEbZjEwFFbIHQ/company-logo_200_200/company-logo_200_200/0/1719271931907/cobistopaz_logo?e=2147483647&v=beta&t=2ryEtFMHESwICiLxkSGHjhGe6NqPcPPZnyHUn2VbenU",
   },
   {
     company: "Trades Org Inc",
-    boss: "Christian Rodriguez",
+    boss: "Christian Rodriguez (chris@trades.org)",
     location: "1703 Deerfield Dr, Austin, Texas, 78741, US",
     dateRange: "experience.tradesorgincDateRange",
     position: "experience.tradesorgincPosition",
@@ -24,7 +24,7 @@ export const ExperienceList: ExperienceItem[] = [
   },
   {
     company: "EUREKA DREAMS (GALIMATICO S.A.S.)",
-    boss: " Gustavo Alexander Agudelo Gordillo",
+    boss: "Pedro Ándres Balcazar Peñaloza (+57 320 495 66 45)",
     location: "Bogotá, Colombia",
     dateRange: "experience.eurekadreamsDateRange",
     position: "experience.eurekadreamsPosition",

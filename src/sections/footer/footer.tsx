@@ -13,6 +13,7 @@ import type { FooterProps } from "./types";
 
 function Footer({ name, profession, phone, email, location }: FooterProps) {
   return (
+    // biome-ignore lint/correctness/useUniqueElementIds: <>
     <div
       id="#footer"
       className="w-full p-10 lg:px-32 lg:py-12 bg-zinc-600 border-t-2 border-t-cyan-500"
@@ -41,14 +42,18 @@ function Footer({ name, profession, phone, email, location }: FooterProps) {
             <img
               alt="ES"
               className="h-4 w-4 overflow-hidden rounded-full"
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/255px-Flag_of_Colombia.svg.png"
+              src="https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/1280px-Flag_of_Colombia.svg.png?utm_source=co.wikimedia.org&utm_campaign=index&utm_content=thumbnail"
             />
             <span className="text-slate-200 font-medium text-sm">
               {location}
             </span>
           </div>
         </div>
-        <Avatar src={profileImage} size="md" className="rounded-full" />
+        <Avatar
+          src={profileImage}
+          size="md"
+          className="rounded-full overflow-hidden shadow-lg shadow-cyan-400"
+        />
       </div>
     </div>
   );
